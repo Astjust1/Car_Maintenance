@@ -7,14 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C3BD0AD51EC7AA96006B26F1 /* SetupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3BD0AD41EC7AA96006B26F1 /* SetupViewController.swift */; };
+		C3BF1DF51EC6276C00A01A7C /* EventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3BF1DF41EC6276C00A01A7C /* EventViewController.swift */; };
+		C3BF1DF91EC67D2F00A01A7C /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3BF1DF81EC67D2F00A01A7C /* Launch Screen.storyboard */; };
 		C3CA30541EC52AF0003ABD3B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3CA30531EC52AF0003ABD3B /* AppDelegate.swift */; };
 		C3CA30561EC52AF0003ABD3B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3CA30551EC52AF0003ABD3B /* ViewController.swift */; };
 		C3CA30591EC52AF0003ABD3B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3CA30571EC52AF0003ABD3B /* Main.storyboard */; };
 		C3CA305C1EC52AF0003ABD3B /* Mom_s.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C3CA305A1EC52AF0003ABD3B /* Mom_s.xcdatamodeld */; };
 		C3CA305E1EC52AF0003ABD3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3CA305D1EC52AF0003ABD3B /* Assets.xcassets */; };
-		C3CA30611EC52AF0003ABD3B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3CA305F1EC52AF0003ABD3B /* LaunchScreen.storyboard */; };
 		C3CA306C1EC52AF0003ABD3B /* Mom_sTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3CA306B1EC52AF0003ABD3B /* Mom_sTests.swift */; };
 		C3CA30771EC52AF0003ABD3B /* Mom_sUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3CA30761EC52AF0003ABD3B /* Mom_sUITests.swift */; };
+		C3CA30851EC52F1A003ABD3B /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3CA30841EC52F1A003ABD3B /* Utilities.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,13 +38,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C3BD0AD41EC7AA96006B26F1 /* SetupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetupViewController.swift; sourceTree = "<group>"; };
+		C3BF1DF41EC6276C00A01A7C /* EventViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventViewController.swift; sourceTree = "<group>"; };
+		C3BF1DF81EC67D2F00A01A7C /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		C3CA30501EC52AF0003ABD3B /* Mom's.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mom's.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3CA30531EC52AF0003ABD3B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C3CA30551EC52AF0003ABD3B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C3CA30581EC52AF0003ABD3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C3CA305B1EC52AF0003ABD3B /* Mom_s.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Mom_s.xcdatamodel; sourceTree = "<group>"; };
 		C3CA305D1EC52AF0003ABD3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		C3CA30601EC52AF0003ABD3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C3CA30621EC52AF0003ABD3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C3CA30671EC52AF0003ABD3B /* Mom'sTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mom'sTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3CA306B1EC52AF0003ABD3B /* Mom_sTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mom_sTests.swift; sourceTree = "<group>"; };
@@ -49,6 +54,7 @@
 		C3CA30721EC52AF0003ABD3B /* Mom'sUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mom'sUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3CA30761EC52AF0003ABD3B /* Mom_sUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mom_sUITests.swift; sourceTree = "<group>"; };
 		C3CA30781EC52AF0003ABD3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3CA30841EC52F1A003ABD3B /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,9 +108,12 @@
 				C3CA30531EC52AF0003ABD3B /* AppDelegate.swift */,
 				C3CA30551EC52AF0003ABD3B /* ViewController.swift */,
 				C3CA30571EC52AF0003ABD3B /* Main.storyboard */,
+				C3BD0AD41EC7AA96006B26F1 /* SetupViewController.swift */,
+				C3BF1DF41EC6276C00A01A7C /* EventViewController.swift */,
 				C3CA305D1EC52AF0003ABD3B /* Assets.xcassets */,
-				C3CA305F1EC52AF0003ABD3B /* LaunchScreen.storyboard */,
 				C3CA30621EC52AF0003ABD3B /* Info.plist */,
+				C3CA30841EC52F1A003ABD3B /* Utilities.swift */,
+				C3BF1DF81EC67D2F00A01A7C /* Launch Screen.storyboard */,
 				C3CA305A1EC52AF0003ABD3B /* Mom_s.xcdatamodeld */,
 			);
 			path = "Mom's";
@@ -238,8 +247,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C3CA30611EC52AF0003ABD3B /* LaunchScreen.storyboard in Resources */,
 				C3CA305E1EC52AF0003ABD3B /* Assets.xcassets in Resources */,
+				C3BF1DF91EC67D2F00A01A7C /* Launch Screen.storyboard in Resources */,
 				C3CA30591EC52AF0003ABD3B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,8 +274,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3BF1DF51EC6276C00A01A7C /* EventViewController.swift in Sources */,
 				C3CA305C1EC52AF0003ABD3B /* Mom_s.xcdatamodeld in Sources */,
 				C3CA30561EC52AF0003ABD3B /* ViewController.swift in Sources */,
+				C3CA30851EC52F1A003ABD3B /* Utilities.swift in Sources */,
+				C3BD0AD51EC7AA96006B26F1 /* SetupViewController.swift in Sources */,
 				C3CA30541EC52AF0003ABD3B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -309,14 +321,6 @@
 				C3CA30581EC52AF0003ABD3B /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		C3CA305F1EC52AF0003ABD3B /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C3CA30601EC52AF0003ABD3B /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -520,6 +524,7 @@
 				C3CA307D1EC52AF0003ABD3B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C3CA307E1EC52AF0003ABD3B /* Build configuration list for PBXNativeTarget "Mom'sTests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +533,7 @@
 				C3CA30801EC52AF0003ABD3B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C3CA30811EC52AF0003ABD3B /* Build configuration list for PBXNativeTarget "Mom'sUITests" */ = {
 			isa = XCConfigurationList;
@@ -536,6 +542,7 @@
 				C3CA30831EC52AF0003ABD3B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
